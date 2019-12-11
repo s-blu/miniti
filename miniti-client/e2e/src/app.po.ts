@@ -6,6 +6,6 @@ export class AppPage {
   }
 
   getTitleText() {
-    return element(by.css('mti-root .content span')).getText() as Promise<string>;
+    return element(by.css('.app-title')).getText() as Promise<string>;
   }
 }
