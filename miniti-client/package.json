@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -27,8 +28,10 @@
     "@angular-devkit/build-angular": "~12.0.1",
     "@angular/cli": "~12.0.1",
     "@angular/compiler-cli": "~12.0.1",
+    "@briebug/cypress-schematic": "^5.0.0",
     "@types/jest": "^26.0.23",
     "@types/node": "^12.11.1",
+    "cypress": "7.3.0",
     "jest": "^26.6.3",
     "jest-preset-angular": "^8.4.0",
     "prettier": "^2.3.0",
